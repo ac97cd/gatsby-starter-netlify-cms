@@ -5,13 +5,11 @@ import unavailable from '../img/unavailable.png'
 const NotFoundPage = () => (
   <Layout>
     <div>
-      <h1>NOT FOUND</h1>
+      <h1>URL Address Not Found</h1>
       <p>"Sorry. The page is unavailable :("</p>
-      <p><img src={unavailable} alt="Page unavailable"
-            height={500}
-            width={300}
-            style={{ alignSelf: 'center'}}
-      /></p>
+    </div>
+    <div class="center-image">
+      <img src={unavailable} alt="Page unavailable"/>
     </div>
   </Layout>
 )
