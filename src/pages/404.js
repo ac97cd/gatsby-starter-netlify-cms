@@ -6,7 +6,7 @@ const NotFoundPage = () => (
     <div>
       <h1>NOT FOUND</h1>
       <p>Sorry. The page is unavailable :(</p>
-      <img>../img/'Unavailable Page.png'</img>
+      <p><img src="../img/'Unavailable Page.png" alt="Page unavailable"></p>
     </div>
   </Layout>
 )
