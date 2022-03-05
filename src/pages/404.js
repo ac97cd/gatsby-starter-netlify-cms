@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import Image from 'react-image-resizer';
 import unavailable from '../img/unavailable.png'
 
 const NotFoundPage = () => (
